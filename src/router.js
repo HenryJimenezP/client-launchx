@@ -17,8 +17,8 @@ const routes =  [
     component: () => import("./components/AddExplorer")
   },
   {
-    alias: "/missions",
-    name: "missions",
+    alias: "/mission",
+    name: "mission",
     component: () => import("./components/MissionList")
   },
   {
