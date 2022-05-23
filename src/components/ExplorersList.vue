@@ -3,7 +3,7 @@
     <div class="col-md-6">
       <h4> Explorers Inscritos </h4>
       <ul class="list-group">
-        <li class="list-group-item"
+        <li class="list-group-item select-item"
           :class="{ active: index == currentIndex }"
           v-for="(explorer, index) in explorers"
           :key="index"
@@ -68,3 +68,9 @@ export default {
   }
 };
 </script>
+
+<style>
+.select-item{
+  cursor: pointer;
+}
+</style>
