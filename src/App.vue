@@ -9,6 +9,12 @@
         <li class="nav-item">
           <router-link to="/add" class="nav-link">Agregar Explorer</router-link>
         </li>
+        <li class="nav-item">
+          <router-link to="/mission" class="nav-link">Mission</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/addmission" class="nav-link">Agregar Mission</router-link>
+        </li>
       </div>
     </nav>
     <div class="container mt-3">
